@@ -1,0 +1,134 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img{
+  max-width: 100%;
+}
+
+body{
+  padding: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #202d36;
+  color: white;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 50px;
+}
+
+.grid img{
+  height: 200px;
+  width: 100%;
+}
+
+.grid .details{
+  background-color: #202c36;
+  margin-top: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.grid .details h3{
+  padding-bottom: 10px;
+}
+
+.grid .details h5{
+  padding-bottom: 5px;
+}
+
+.grid .details h5 span{
+  font-weight: 300;
+}
+
+.filter{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+}
+
+.form-control input{
+  background-color: #344450;
+  padding: 8px;
+  color: white;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+}
+
+.form-control input::placeholder{
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 0.8px;
+  padding: 8px;
+}
+
+.filter .select{
+  background-color: #344450;
+  padding: 8px;
+  color: white;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  letter-spacing: 0.8px;
+}
+
+.back-icon span{
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.flex{
+  display: flex;
+  max-height: 100vh;
+  margin-top: 3rem;
+  justify-content: space-around;
+}
+
+.flag img{
+  width: 100%;
+  height: 350px;
+}
+
+.flag .country-details span{
+  font-weight: 300;
+}
+
+.add-to-fav-btn , .fav-btn{
+  padding: 6px;
+  background-color: #344450;
+  color: white;
+}
+
+.filter .region-filter button{
+  padding: 6px;
+  margin: 0 10px;
+  width: 70px;
+  background-color: #202c36;
+  color: #fff;
+}
+
+.fav-section{
+  margin-top: 8rem;
+}
+
+.fav-section .add , .remove{
+    background-color: #202c36;
+    color: #fff;
+    padding: 6px;
+    margin: 0 10px;
+}
+
+.fav-country-list{
+  list-style: none;
+  margin: 10px ;
+  padding: 6px;
+}
